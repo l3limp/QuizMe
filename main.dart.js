@@ -75810,8 +75810,7 @@ gn1(){return"\\"}}
 A.a2l.prototype={
 WK(a){$.D6().n(0,this,a)}}
 A.vv.prototype={
-ah(){var s="What is my name",r="My name is khan and i am not a terrorist"
-return new A.N2(A.a([new A.qp(s,r),new A.qp(s,r)],t.mW),B.l0,B.k)}}
+ah(){return new A.N2(A.a([new A.qp("DEMO: How does QuizMe work?","QuizMe generates questions and answers based on the content of the PDF you upload by clicking the upload PDF button"),new A.qp("DEMO: How accurate is QuizMe","QuizMe is developed by using crewAI and gtp-3.5-turbo. It may not work as expected or may provide incorrect information at times.")],t.mW),B.l0,B.k)}}
 A.N2.prototype={
 O(a0){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=4278716682,e=4294244341,d=t.w,c=A.bH(a0,g,d).w.a.a,b=A.bH(a0,g,d).w.a.b,a=c>560?1:0.7
 d=b*0.1
@@ -75826,11 +75825,11 @@ l=16*a
 m=A.Xw(A.dr("Upload PDF",g,g,g,A.cw(g,g,new A.q(f),g,g,g,g,g,g,g,g,l,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g),new A.abB(h,a0,c,a),m)
 k=c*0.75-160
 j=h.d
-j=j.length===0?"Upload a PDF (Less than 5mb)":"File: "+j
+j=j.length===0?"Upload a PDF (Less than 3mb)":"File: "+j
 i=t.E
 j=A.a([A.fn(A.dr(j,g,g,g,A.cw(g,g,new A.q(e),g,g,g,g,g,g,g,g,l,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),B.cp,g),g,k)],i)
 if(h.d.length!==0)j.push(A.fn(A.dr("File size: "+h.e+" bytes",g,g,g,A.cw(g,g,new A.q(e),g,g,g,g,g,g,g,g,l,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),B.cp,g),g,k))
-if(h.e>5e6)j.push(A.fn(A.dr("Files above 5000000b (5mb) cannot be processed",g,g,g,A.cw(g,g,B.rh,g,g,g,g,g,g,g,g,l,g,g,g,g,a+0.2,!0,g,g,g,g,g,g,g,g),B.cp,g),g,k))
+if(h.e>3e6)j.push(A.fn(A.dr("Files above 3000000b (3mb) cannot be processed",g,g,g,A.cw(g,g,B.rh,g,g,g,g,g,g,g,g,l,g,g,g,g,a+0.2,!0,g,g,g,g,g,g,g,g),B.cp,g),g,k))
 r=A.h7(g,A.IB(A.a([m,B.K1,A.pc(j,B.ll,B.FT,B.bR)],i),B.bf,B.bz,B.bR),B.z,g,g,new A.d0(B.kV,g,g,r,g,g,B.aK),g,g,new A.aC(p,q,p,q),g)
 q=h.x===0?g:new A.abC(h)
 p=A.mn(g,g,new A.b9(B.c4,o),g,g,g,g,g,g,g,g,g,new A.b9(B.i,o),g,g,new A.b9(new A.bY(A.oV(8),B.p),n),g,g,g,g,g,g)
@@ -75954,7 +75953,7 @@ l.d=J.tB(j.a).b
 l.e=J.tB(j.a).e}catch(i){n=A.al(i)
 A.h2(n)}l=q.a
 l.ae(new A.abA())
-if(J.bb(p)!==0&&l.e<5e6)l.CA(q.b,q.c*0.3+50,q.d,p)}return A.X(null,r)}})
+if(J.bb(p)!==0&&l.e<3e6)l.CA(q.b,q.c*0.3+50,q.d,p)}return A.X(null,r)}})
 return A.Y($async$$0,r)},
 $S:23}
 A.abA.prototype={
